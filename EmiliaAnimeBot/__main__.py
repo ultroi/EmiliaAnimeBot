@@ -65,13 +65,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-This is[.]({EMILIA_START_IMG})
-
-A Diverse Systematic Bot Written in Python.
-You can Add Me In Your Group for Knowing my True Power.
-
-You can either use /help or the Commands Button Given Below!
+ ────「 [](https://telegra.ph/file/da8c9c0c573d0cd2a5913.jpg) 」────
+*Hola! {},*
+*I am an Anime themed advance group management bot with a lot of Features.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+• *Uptime:* {}
+• {} *users, across* {} *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ Try The Help Buttons Below To Know My Abilities ××   
 """
+
+ buttons = [
+    [
+                        InlineKeyboardButton(
+                            text=f"Add Pikachu To Your Group",
+                            url=f"t.me/PikachuRobo_bot?startgroup=true")
+                    ],
+                   [
+                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/animeclub_4all"),
+                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+                     ],
+                    [                  
+                       InlineKeyboardButton(
+                             text="🚑 Support",
+                             url=f"https://t.me/PikachuHelpSupport"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/PikachuUpdate")
+                     ], 
+    ]
+ 
  
 
 
