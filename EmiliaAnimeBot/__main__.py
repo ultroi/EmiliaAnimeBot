@@ -65,47 +65,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-This is Emilia[.]({EMILIA_START_IMG})
+This is[.]({EMILIA_START_IMG})
 
 A Diverse Systematic Bot Written in Python.
 You can Add Me In Your Group for Knowing my True Power.
 
 You can either use /help or the Commands Button Given Below!
 """
-
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="🏹Summon ME🏹",url="t.me/EmiliaAnimeRoBot?startgroup=true"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="Commands", callback_data="help_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/TangentXOfficial"
-        ),
-      
-        InlineKeyboardButton(
-          text="Usage Guide", callback_data="usage_"
-        ),
-    ],
-         
-    [
-       InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/TangentChats"
-         ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="✒ Source", callback_data="source_"
-        ),
-     
-    ],
-]
+ 
 
 
 HELP_STRINGS = f"""
