@@ -22,10 +22,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/b37cec509d121c8c63518.jpg"
+EMILIA_IMG = "https://telegra.ph/file/da8c9c0c573d0cd2a5913.jpg"
 
 EMILIA_USAGE_TEXT = """
-Basic Usage Help For Emilia
+Basic Usage Help For Pikachu
 
 🔳Add me To your Group
 🔳Make Me Admin With Full Rights.
@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = f"""
+PM_START_TEXT = """
  ────「 [](https://telegra.ph/file/da8c9c0c573d0cd2a5913.jpg) 」────
 *Hola! {},*
 *I am an Anime themed advance group management bot with a lot of Features.*
