@@ -75,7 +75,7 @@ PM_START_TEXT = f"""
 ➛ Try The Help Buttons Below To Know My Abilities ××   
 """
 
- buttons = [
+buttons = [
     [
                         InlineKeyboardButton(
                             text=f"Add Pikachu To Your Group",
